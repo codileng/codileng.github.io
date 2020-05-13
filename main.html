@@ -1,0 +1,98 @@
+
+<!DOCTYPE html>
+
+<html lang="">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+    <title>Códileng oficial</title>
+    <meta name="description" content="Codileng es la primera empresa de software en San Luis de la Paz">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+        <div class="navbar">
+            <a href="#principal">Códileng</a>
+            
+            <a href="#web">Curso Web</a>
+            <a href="#diversion" onclick="verCanvas()">Diviértete</a>
+            <a href="#contacto">Contacto</a>
+        </div>         
+            
+            <div id="div-img" class="centrado">
+                <img src="logoCodileng.png" title="Códileng, Te abre las puertas del mundo digital" alt="logo codileng" width="200px" height="auto">
+                <h2>El mundo es digital ¿Y tú?</h2>
+            </div>
+                
+        <div id="web" class="centrado">
+                  <h1 >Curso de Desarrollo Web</h1>
+                  <p>Aprende a diseñar y programar páginas web desde cero y adeńtrate en el mundo digital</p>
+                  <p>Este curso tiene una duración de 16 semanas más 2 semanas extras para que hagas tu práctica final.</p>
+                    <p>En apoyo a estos tiempos difíciles no te pedimos que pagues el precio regular de <s>$4,000.00</s>, sólo un</p>
+                    <h2>pago único de $700.00</h2>
+                    <p>Puedes hacer un depósito en ventanilla, en Oxxo o mediante transferencia bancaria a la cuenta BBVA:</p>
+                    <ul>
+                        <li>Nombre: Daniel Ramírez Pérez</li>
+                        <li>No. Tarjeta: 4152 3134 1795 8837</li>
+                        <li>No. Clabe: 01 2680 0286 6575 0211</li>
+                    </ul>
+                    <h2>Comenzamos el lunes 25 de Mayo a través de Google Classroom</h2>
+                <ul>
+                    <h2>Temario</h2>
+                    <li>HTML5</li>
+                    <p>La base de toda página web es HTML</p>
+                    <p>Aprenderás cómo estructurar una página web y sus elementos</p>
+                    <li>CSS</li>
+                    <p>CSS nos ayuda a darle estilo y una vista hermosa a nuestra página</p>
+                    <p>Aquí aprenderemos a darle color, forma, posición y hasta animación a </br>
+                        los elementos de nuestra página web.
+                    </p>
+                    <li>Javascript</li>
+                    <p>Javascript es el lenguaje de programación que mueve a la web, en este módulo</br>
+                    veremos las bases de programación y a darle funcionalidad avanzada a nuestra página web.</p>
+                    <li>JQuery</li>
+                    <p>JQuery nos facilita la creación de funciones con Javascript y nos ayuda a </br>
+                    programar más, escribiendo menos, lo cual reduce los tiempos de creación de nuestra página</p>
+                    <li>Bootstrap</li>
+                    <p>Bootstrap facilita de sobremanera el uso de CSS, lo cual agiliza el proceso para llever </br>
+                    nuestra página web a otro nivel y crear vistas llamativas y profesionales</p>
+                    <li>MySQL</li>
+                    <p>Para guardar y editar datos necesitamos de una base de datos. Con MySQL podremos darle esa </br>
+                    funcinalidad a nuestra aplicación web. Por ejemplo, un control de inventarios requiere registrar </br>
+                    entradas y salidas, así como tener actualidas las existencias de producto.</p>
+                    <li>Electron</li>
+                    <p>Veremos cómo sacarle provecho a las habilidades aprendidas para crear aplicaciones de escritorio. </br>
+                    Ejemplos de aplicaciones hechas con Electron son Whatsapp para computadora y VS Code, entre muchas otras.</p>
+                    <li>Práctica final</li>
+                    <p>Para concluir el curso haremos una página o aplicación  para un negocio local, pudiendo cobrar </br>
+                    por tu servicio y así tener tu primer sueldo como Desarrollador Web, al mismo tiempo ayudaremos al municipio</br>
+                    acercando la tecnología a pequeños negocios.</p>
+                </ul>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/AJUOWfHA2iw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>          </div>
+        </div>
+
+        <div id="diversion" style="display: none;" class="centrado">
+            <h3>Dibuja líneas con el puntero</h3>
+            <div>(No disponible para celulares) <a href="#" onclick="mostrarJuegos()">Ocultar</a></div>
+            <canvas id="draw" style="touch-action: none; border: 1px solid #000000;" width="300px" height="300px">Tu navegador no soporta el uso de Canvas.</canvas>
+            
+          </div>
+        
+        
+        <div id="contacto" class="centrado" class="background-SanLuis">
+            <h3>Estamos en San Luis de la Paz  .</h3>
+            <p><b>Envíanos un correo a <u>codileng@gmail.com</u></b></p>
+            <img id="imagenSanLuis" src="sanLuis.jpg" alt="San Luis" height="200px" width="auto">
+        </div>
+
+        <footer>
+            <p>Copyright &COPY; 2020 Códileng  | San Luis de la Paz, Guanajuato</p>
+        </footer>
+        <script src="codigo.js"></script>
+        
+</body>
+
+</html>

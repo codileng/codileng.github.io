@@ -1,0 +1,105 @@
+body {
+  background-image: url('https://img.freepik.com/vector-gratis/fondo-formas-abstractas-triangulo-azul_1035-17551.jpg?size=626&ext=jpg');
+  background-color: lightskyblue;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333; 
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: orange;
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: orange;
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+  
+  #topnav{
+      display: block;
+  }
+
+  .centrado{
+    text-align: center;
+    padding: 5px;
+  }
+
+  footer{
+    padding: 14px 16px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: auto%;
+    height: 2.5rem;
+    background-color: orange;
+  }
+
+  li{
+    font-style: italic;
+    font-weight: bold;
+    list-style-type: none;
+  }
+
+  @media screen and (max-width: 460px) {
+    #imagenSanLuis {
+      width: 90%;
+      height: auto;
+    }
+    #draw{
+      display: none;
+    }
+    
+  }
+
